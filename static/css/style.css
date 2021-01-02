@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+#header {
+  height: 100%;
+}
+
+#title-text {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#body-text {
+  font-family: "Inter", san-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#about,
+#projects {
+  background-color: #eee;
+}
+
+a {
+  transition: all 0.2s;
+}
+
+a:hover {
+  translate: 0px -4px;
+}
+
+p a {
+  color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px -12px 0 rgba(166, 133, 226, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+p a:hover {
+  color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px -28px 0 rgba(166, 133, 226, 0.5);
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepak Talan</title>
+    <script
+      src="https://kit.fontawesome.com/868e783c7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='favicon.ico') }}"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+  <body>
+    <!-- SECTIONS START-->
+    <!-- SECTION ONE -->
+    <div class="section" id="header">
+      <div class="columns">
+        <!-- LEFT COLUMN -->
+        <div class="column">
+          <img
+            src="{{ url_for('static', filename='illustrations/desk.png') }}"
+            alt="dev"
+          />
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="column mt-6">
+          <div class="columns mt-6" id="title-text">
+            <div class="column">
+              <p class="is-size-1">
+                Hello, &#x1F44B; <br />
+                I'm Deepak Talan
+              </p>
+            </div>
+          </div>
+          <div class="columns" id="body-text">
+            <div class="column ml-1 mr-6">
+              <p class="is-size-5">ðiːpʌk / the-puck / d02d33pak on the net</p>
+              <br />
+              <p class="is-size-4">
+                Spends time glued to the pc creating stuff for the web or
+                solving problems. Enjoys football and listening to music.
+              </p>
+            </div>
+          </div>
+          <div class="columns mt-6">
+            <a
+              href="https://linkedin.com/deepak-talan"
+              target="_blank"
+              class="ml-4"
+            >
+              <button class="button is-link is-light">
+                <span class="icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </span>
+                <span>LinkedIn</span>
+              </button>
+            </a>
+            <a href="https://github.com/d02d33pak" target="_blank" class="ml-4">
+              <button class="button is-black is-light">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Github</span>
+              </button>
+            </a>
+            <a
+              href="https://twitter.com/d02d33pak"
+              target="_blank"
+              class="ml-4"
+            >
+              <button class="button is-info is-light">
+                <span class="icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+                <span>Twitter</span>
+              </button>
+            </a>
+            <a
+              href="https://instagram.com/d02d33pak"
+              target="_blank"
+              class="ml-4"
+            >
+              <button class="button is-danger is-light">
+                <span class="icon">
+                  <i class="fab fa-instagram"></i>
+                </span>
+                <span>Instagram</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION ONE END -->
+
+    <!-- SECTION TWO -->
+    <div class="section" id="about">
+      <div class="columns is-vcentered">
+        <!-- LEFT COLUMN -->
+        <div class="column">
+          <div class="columns">
+            <div class="column has-text-centered">
+              <p class="is-size-1" id="title-text">About Me</p>
+            </div>
+          </div>
+          <div class="columns mt-4">
+            <div class="column has-text-justified">
+              <p class="is-size-4 ml-6" id="body-text">
+                &emsp;&emsp;Been working as a Project Engineer at
+                <a
+                  href="http://https://en.wikipedia.org/wiki/Wipro"
+                  target="_blank"
+                  >Wipro Ltd.</a
+                >
+                in Chennai, TN for over 2 years now. Part of the profile
+                requires writing scripts and devloping GUI desktop applications
+                for automation of stuff. Quite passionate about writing clean
+                and readable code. I like solving coding problems and puzzles
+                every now and then. Have an itch for trying out new things be it
+                code-editors, libraries, frameworks, languages or anything in
+                between those lines.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="column">
+          <img
+            class="image"
+            src="{{ url_for('static', filename='illustrations/about.png') }}"
+            alt="dev"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- SECTION TWO END -->
+
+    <!-- SECTION THREE -->
+    <div class="section" id="work">
+      <div class="columns is-vcentered">
+        <!-- LEFT COLUMN -->
+        <div class="column">
+          <img
+            class="image"
+            src="{{ url_for('static', filename='illustrations/skills.png') }}"
+            alt="dev"
+          />
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="column">
+          <div class="columns">
+            <div class="column has-text-cetered">
+              <p class="is-size-1" id="title-text">Skills</p>
+            </div>
+          </div>
+          <div class="columns mt-4">
+            <div class="column mr-6">
+              <p class="is-size-4" id="body-text">Python</p>
+              <progress class="progress is-info" value="85" max="100">
+                Python
+              </progress>
+              <p class="is-size-4" id="body-text">JavaScript</p>
+              <progress class="progress is-warning" value="75" max="100">
+                JavaScript
+              </progress>
+              <p class="is-size-4" id="body-text">HTML</p>
+              <progress class="progress is-danger" value="75" max="100">
+                HTML
+              </progress>
+              <p class="is-size-4" id="body-text">CSS</p>
+              <progress class="progress is-primary" value="70" max="100">
+                CSS
+              </progress>
+              <p class="is-size-4" id="body-text">SQL</p>
+              <progress class="progress is-link" value="80" max="100">
+                SQL
+              </progress>
+            </div>
+          </div>
+          <div class="columns mt-6 is-multiline">
+            <div class="column is-narrow">
+              <button class="button is-light is-primary">PyQt5</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-danger">Flask</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-info">Web Dev</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-success">Git</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-link">OpenPyXL</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-primary">Pandas</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-link">Numpy</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-success">Docker</button>
+            </div>
+            <div class="column is-narrow">
+              <button class="button is-light is-info">Selenium</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION THREE END -->
+
+    <!-- SECTION FOUR -->
+    <div class="section" id="projects">
+      <div class="columns is-vcentered">
+        <!-- LEFT COLUMN -->
+        <div class="column">
+          <div class="columns has-text-centered">
+            <div class="column">
+              <p class="is-size-1" id="title-text">Recent Projects</p>
+            </div>
+          </div>
+          <div class="columns mt-4">
+            <div class="column">
+              <a href="https://github.com/d02d33pak/PyQt5-Apps" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <p class="title is-4">PyQt5 Apps</p>
+                    <p class="subtitle is-6">Python</p>
+                    <p class="is-size-5" id="body-text">
+                      Simple Desktop GUI applications build using PyQt5. Can be
+                      packaged using PyInstaller.
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="column">
+              <a
+                href="https://github.com/aetiss/dictionary_browser_extension"
+                target="_blank"
+              >
+                <div class="card">
+                  <div class="card-content">
+                    <p class="title is-4">Browser Extension</p>
+                    <p class="subtitle is-6">JavaScript</p>
+                    <p class="is-size-5" id="body-text">
+                      A browser extension for Firefox that fetches meaning of
+                      the selected word from Merriam-Webster using their API.
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <a
+                href="https://github.com/aetiss/dictionary_browser_extension"
+                target="_blank"
+              >
+                <div class="card">
+                  <div class="card-content">
+                    <p class="title is-4">devRant API</p>
+                    <p class="subtitle is-6">Python</p>
+                    <p class="is-size-5" id="body-text">
+                      RESTful API wrapper for devrant written in Python. Tried
+                      my best to stick to all API standards.
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="column">
+              <a
+                href="https://github.com/d02d33pak/Flask-Weather"
+                target="_blank"
+              >
+                <div class="card">
+                  <div class="card-content">
+                    <p class="title is-4">Weather WebApp</p>
+                    <p class="subtitle is-6">Flask</p>
+                    <p class="is-size-5" id="body-text">
+                      A webapp built using Flask and weather API that fetches
+                      weather for different cities. Hosted on Heroku.
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="column">
+          <img
+            class="image"
+            src="{{ url_for('static', filename='illustrations/projects.png') }}"
+            alt="dev"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- SECTION FOUR END -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <!-- <p>
+          Contact Me:
+          <a href="mailto:deepaktalan07@gmail.com">Gmail</a>
+        </p> -->
+        <p>
+          Built using
+          <strong>Bulma</strong>
+        </p>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    <!-- SECTIONS END-->
+  </body>
+</html>
